@@ -1,0 +1,265 @@
+body {
+    font-size: 15px;
+    background-color:white;
+}
+.container {
+    background-color: #065799d3;
+
+}
+.display-4 {
+    color: #fcfafa;
+    padding-top: 30px;
+    text-shadow: 2px 2px 5px#535353;
+    padding-left: 10px;
+    font-size: 5em;
+    font-style: normal;
+    font-family: Archivo Black,serif;
+}
+.navbar {
+    padding-left: 50px;
+    font-family: Poppins, serif;
+}
+.nav-item {
+    padding-left: 25px;
+}
+.par {
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #fcfafa;
+    font-family: Poppins, serif;
+}
+#lead {
+    padding-left: 20px;
+    font-size: 20px;
+    color: #fcfafa;
+    font-family: Asap Condensed, serif;
+}
+#bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 5px;
+    font-family: Poppins, serif;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Css for Computer Networking Definition Css for Computer Networking Definition  Css for Computer Networking Definition Css for Computer Networking Definition */
+.text {
+    font-family: Poppins, serif;
+    color: #fcfafa;
+}
+
+p {
+    font-size: 17px;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #fcfafa;
+    font-family: Poppins, serif;;
+}
+h1{
+    padding-top: 30px;
+    padding-left: 20px;
+    color:#fcfafa;
+    text-shadow: 2px 2px 5px #535353;
+}
+h4{
+    padding-top: 30px;
+    padding-left: 20px;
+    color:#dbfae4;
+    text-shadow: 2px 2px 5px #535353;
+}
+.img {
+    width: 100%;
+    display: block;
+    height: auto;
+    text-align: center;
+}
+.center {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: Poppins, serif;
+  }
+  
+.pagination {
+    display: inline-block;
+  }
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 14px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+.pagination a.active {
+    background-color: #f3f5f3;
+    color: rgb(19, 18, 18);
+    border: 1px solid #f3f5f3;
+  }
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Css for Net Foundation Networking Css for Net Foundation Networking Css for Net Foundation Networking Css for Net Foundation Networking Css for Net Foundation NetworkingCss for Net Foundation Networking Css for Net Foundation Networking*/
+.unorderedli{
+    font-size: 17px;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 5%;
+    color:#fcfafa;
+    text-shadow: 2px 2px 5px #535353;
+    font-family: Poppins, serif;;
+}
+.last {
+    padding-bottom: 10px;
+}
+/* Css for Net Routing and Switching Css for Net Routing and Switching Css for Net Routing and Switching Css for Net Routing and Switching Css for Net Routing and Switching Css for Net Routing and Switching Css for Net Routing and Switching */
+hr.hrline {
+    border: 0.5px solid whitesmoke;
+}
+/* sidenav */
+#mySidenav a {
+  position: absolute;
+  left: -60px;
+  transition: 0.3s;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-top: 50px;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#first {
+  top: 20px;
+  background-color: #c1d4fd;
+}
+
+#second {
+  top: 80px;
+  background-color: #77b7f7;
+}
+
+#third {
+  top: 140px;
+  background-color: #4a78f8;
+}
+
+#fourth {
+  top: 200px;
+  background-color: rgb(46, 43, 250)
+}
+#fifth {
+  top: 260px;
+  background-color: rgb(7, 9, 167)
+}
+#sixth {
+  top: 320px;
+  background-color: rgb(5, 5, 5)
+}
+ul{
+  font-family: Poppins, serif;
+  color: #fcfafa;
+}
+ol {
+  font-family: Poppins, serif;
+  color: #fcfafa;
+  padding-left: 70px;
+}
+h6 {
+  font-family: Poppins, serif;
+  color: #fcfafa;
+  text-decoration: underline;
+  padding-left: 40px;
+  font-style: italic;
+}
+form {
+  font-size: 15px;
+}

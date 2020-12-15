@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo Black">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap Condensed">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Computer Networking</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand"  href="index.html   ">JZ</a>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                </div>
+            </nav>
+        </div>
+        <div class="text">
+            <div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="netfoundation.html" id="first">Network Foundation</a>
+                    <a href="netrouting.html" id="second">Network Routing & Switching</a>
+                    <a href="netphysical.html" id="third">Network Physical Layer</a>
+                    <a href="netsecurity.html" id="fourth">Network Security</a>
+                    <a href="netmanagement.html" id="fifth">Networking Management</a>
+                    <a href="netapp.html" id="sixth">Network Application Areas</a>
+                  </div>
+            </div>
+                <h1>What is Computer Networking?</h1>
+                <p> A computer network is a group of computers that are linked together through a communication channel.</p>
+                <hr class="hrline">
+                <p>All the computer devices are called hosts or end systems. Hosts sending requests are called clients while hosts receiving requests are called servers. End systems are connected together by a network of communication links and packet switches. Communication links are made up of different types of physical media, including coaxial cable, copper wide, optical fiber, and radio spectrum. Different links can transmit data at different rates, with the transmission rate of a link measured in bits/second. When one end system has data to send to another end system, the sending end system segments the data and adds header bytes to each segment. The resulting packages of information, known as packets, are then sent through the network to the destination end system, where they are reassembled into the original data. A packet switch takes a packet arriving on one of its incoming communication links and forwards that packet on one of its outgoing communication links. Common packet switches are routers and link-layer switches.</p>
+                <br>
+            </div>
+            
+            
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/osWctsnbMa4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <iframe width="420" height="315"src="https://www.youtube.com/watch?v=osWctsnbMa4"></iframe> -->
+                <br>
+                <caption>Basic Computer Network Structure</caption>
+            </div>
+            <div>
+                <h4>Internet Protocols</h4>                
+                <p>End systems, packet switches and other pieces of the Internet run protocols that control the sending and receiving of information within the Internet. The Transmission Control Protocol (TCP) and the Internet Protocol (IP) are two of the most important protocols in the Internet. The IP protocol specifies the format of the packets that are sent and received among router and end systems. The Internet’s principal protocols are collectively known as TCP/IP.</p>
+            </div>
+            <div class="img">
+                <img class="img-fluid"  src="tcpip.gif" alt="Tcp/Ip">
+                <br>
+                <caption>RFC Codes for Common Protocols</caption>
+            </div>
+            <br>
+            <div>
+                <h4>Layered Architecture</h4>
+                <div class="img">
+                    <img class="img-fluid" src="layeredarch.png" alt="Layered Architecture">
+                    <br>
+                    <caption>Server to Client image transfer</caption>
+                </div>
+                <br>
+                <p class="last">Internet Protocols are organized in a layered architecture. To explain this, let’s imagine you are trying to look for a meme from Google’s image search. The server has the image of your choice stored. Before the server sends out that information, it needs to convert that image into a package with all the necessary headers. Once it reaches the client, the reverse takes place. The packets have their headers removed in the reverse sequence and then converted back to the original data.</p>
+            </div>
+       
+        <br>
+        <div class="center">
+            <div class="pagination">
+            <a href="compunetworking.html" class="active">Computer Net.</a>
+            <a href="netfoundation.html">1</a>
+            <a href="netrouting.html">2</a>
+            <a href="netphysical.html">3</a>
+            <a href="netsecurity.html">4</a>
+            <a href="netmanagement.html">5</a>
+            <a href="netapp.html">6</a>
+            </div>
+        </div>
+    </div>   
+</div> 
+
+</body>
+</html>
